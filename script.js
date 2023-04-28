@@ -58,6 +58,16 @@ let selectedColor = 'red';
 const colorIndicator = document.body.querySelector('#selected-color-box');
 colorIndicator.style.backgroundColor = 'red';
 
+const colorPicker = document.body.querySelector('#colorPicker');
+
+//Color Picker Logic
+colorPicker.addEventListener("change", watchColorPicker, false);
+
+function watchColorPicker(event) {
+  selectedColor = event.target.value;
+  colorIndicator.style.backgroundColor = selectedColor;
+}
+
 document.body.addEventListener('click', function(event){
     const clickedColor = event.target;
     const isPaletteColor = clickedColor.classList.contains('palColor');
@@ -66,5 +76,7 @@ document.body.addEventListener('click', function(event){
         selectedColor = currColor;
 
         colorIndicator.style.backgroundColor = currColor;
+        //colorPicker.value = currColor;
     }
 })
+
