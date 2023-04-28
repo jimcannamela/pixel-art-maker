@@ -48,7 +48,15 @@ for(let i = 0; i < pixelDimensions; i++){
                 }
             }
         })
-
+        newPixelDiv.addEventListener('mousedown',function(event){
+                const clickedNode = event.target;
+                const isPixel = clickedNode.classList.contains('pixel');
+        
+                if(isPixel){
+                    clickedNode.style.backgroundColor = selectedColor;
+                    clickedNode.style.borderColor = selectedColor;
+                }
+        })
     }
     canvasDiv.append(newPixelRow);
 }
