@@ -24,17 +24,17 @@
     box-sizing: content-box;
     padding: 0;
     margin: 20px;
-    background-color: black;
     width:500px;
     height:500px;
     border-style: solid;
-    border-color: greenyellow;
+    border-color: black;
   }
 
   #palette{
     display: flex;
     border-style: solid;
-    border-color: blue;
+    border-radius: 10px;
+    border-color: black;
     margin: 20px;
     width:500px;
     height:200px;
@@ -44,11 +44,11 @@
     display: flex;
   }
 
-  .pixel{
+  /* .pixel{
     width: 248px;
     height: 248px;
     background-color: white;
     border-style: solid;
     border-width: 1px;
     border-color: grey;
-  }
+  } */
