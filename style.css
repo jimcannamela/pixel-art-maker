@@ -1,25 +1,3 @@
-/* * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-  section {
-    display: flex;
-    height: 25vh;
-  }
-  
-  section p {
-   flex-basis: 10vw;
-   height: 100%;
-   text-align: center;
-   font-size: 100px;
-   line-height: 25vh;
-   background: blue;
-   cursor: pointer;
-   user-select: none;
-  } */
-
   body{
     display: flex;
     flex-direction: column;
