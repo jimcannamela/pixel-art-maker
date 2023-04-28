@@ -5,6 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  h1 {
+    color: blueviolet;
+    text-shadow: 1px 1px black;
+  }
+
   #canvas{
     box-sizing: content-box;
     padding: 0;
