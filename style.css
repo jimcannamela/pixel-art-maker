@@ -43,8 +43,21 @@
     align-items: center;
   }
 
+  #picked-color-area{
+    display: flex;
+    /* border-style: solid;
+    border-radius: 10px;
+    border-color: black; */
+    width:500px;
+    align-items: center;
+  }
+
   .row{
     display: flex;
+  }
+
+  #colorPicker{
+    margin-left: 20px;
   }
 
   /* .pixel{
