@@ -31,10 +31,6 @@ for(let i = 0; i < pixelDimensions; i++){
 }
 
 const paletteColors = ['red','blue','green','yellow','white','black'];
-
-readTextFile("file:///~colors.txt");
-
-
 const paletteDiv = document.body.querySelector('#palette');
 
 for(let i = 0; i < paletteColors.length; i++){
