@@ -11,11 +11,9 @@
 let isMouseDown = false;
 document.body.addEventListener('mousedown', function(event){
     isMouseDown = true;
-    console.log('down');
 })
 document.body.addEventListener('mouseup', function(event){
     isMouseDown = false;
-    console.log('up');
 })
 
 //Create canvas grid
