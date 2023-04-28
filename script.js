@@ -76,7 +76,6 @@ document.body.addEventListener('click', function(event){
         selectedColor = currColor;
 
         colorIndicator.style.backgroundColor = currColor;
-        //colorPicker.value = currColor;
     }
 })
 
